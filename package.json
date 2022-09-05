@@ -11,7 +11,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "gitHooks": {
-    "pre-commit": "yarn commitmsg"
+    "commit-msg": "yarn commitmsg"
   },
   "license": "MIT",
   "devDependencies": {
@@ -31,7 +31,8 @@
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
     "rimraf": "^2.6.3",
-    "validate-commit-msg": "^2.14.0"
+    "validate-commit-msg": "^2.14.0",
+    "yorkie": "^2.0.0"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
@@ -50,7 +51,6 @@
     "html-webpack-externals-plugin": "^3.8.0",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
-    "husky": "^8.0.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "loadsh": "^0.0.4",
