@@ -1,6 +1,6 @@
 {
   "name": "builder-webpack-hm",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover ./node_modules/.bin/_mocha",
