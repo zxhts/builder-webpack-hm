@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server --config=./lib/webpack.dev.js --inline --open --host localhost",
     "commitmsg": "validate-commit-msg",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "release": "yarn changelog && npm version patch"
+    "release": "yarn changelog"
   },
   "gitHooks": {
     "commit-msg": "yarn commitmsg"
