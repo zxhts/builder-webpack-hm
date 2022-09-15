@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Counter from "./Counter";
+import {CustomBlock} from './helloworld';
 
 class Home extends React.Component {
   constructor(props) {
@@ -61,6 +62,7 @@ class Home extends React.Component {
       <button id="btn" key="2" onClick={this.handleClick}>
         类组件按钮：{this.state.step}
       </button>,
+      <CustomBlock/>
     ];
   }
 }
